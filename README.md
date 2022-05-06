@@ -76,7 +76,4 @@ Este sistema foi desenvolvido como parte do Trabalho de Conclusão de Curso do c
 </details>
 
 [^1]: Teste a instalação abrindo o programa "Ubuntu". Se der o erro 0x80370102 recomendamos seguir os passos [deste tutorial](https://br.atsit.in/archives/209813).
-[^2]: Ao invés de utilizar o comando `cd <caminho>` é possível abrir linha de comando do WSL direto no diretório seguindo esses passos:
-  Abrir a pasta setup no explorador de documentos
-  Utilizar o atalho `SHIFT + clique direito do mouse` para abrir um menu
-  Selecionar opção "Abrir o shell do linux aqui"
+[^2]: Ao invés de utilizar o comando `cd <caminho>` é possível abrir linha de comando do WSL direto no diretório seguindo esses passos: 1. Abrir a pasta setup no explorador de documentos; 2. Utilizar o atalho `SHIFT + clique direito do mouse` para abrir um menu; 3. Selecionar opção "Abrir o shell do linux aqui".

@@ -43,28 +43,26 @@ Este sistema foi desenvolvido como parte do Trabalho de Conclusão de Curso do c
 
 6.	Abrir Docker Desktop.
 
-7.	Abrir o PowerShell e executar o comando `git clone https://github.com/noh4nsen/Marvin.git` na pasta onde deseja clonar este projeto.
+7.	Abrir a linha de comando do WSL (Ubuntu).
 
-8.	Abrir a linha de comando do WSL (Ubuntu).
+8.	Navegar até a raiz da pasta setup do projeto atm-marvin-setup (ex.: cd /mnt/c/Users/{nome-do-usuario}/Desktop/[…]/atm-marvin-setup/setup)[^2].
 
-9.	Navegar até a raiz da pasta setup do projeto atm-marvin-setup (ex.: cd /mnt/c/Users/{nome-do-usuario}/Desktop/[…]/atm-marvin-setup/setup)[^2].
-
-10.	Executar o comando `docker-compose pull` para baixar as imagens das aplicações no repositório local.
+9.	Executar o comando `docker-compose pull` para baixar as imagens das aplicações no repositório local.
 ![Comando para baixar as imagens.](/images/inst-8.png) 
-11.	Conferir se as imagens foram baixadas corretamente através do comando `docker images`, em caso de erro executar o comando `docker-compose pull` novamente. 
+10.	Conferir se as imagens foram baixadas corretamente através do comando `docker images`, em caso de erro executar o comando `docker-compose pull` novamente. 
 ![Listagem de imagens](/images/inst-9.png)
-12.	Executar o comando `docker network create postgres-net` para criar uma rede de comunicação interna do Docker na qual os microsserviços se comunicarão (A criação da rede pode ser conferida através do comando `docker network ls`).
+11.	Executar o comando `docker network create postgres-net` para criar uma rede de comunicação interna do Docker na qual os microsserviços se comunicarão (A criação da rede pode ser conferida através do comando `docker network ls`).
 ![Criação de rede interna](/images/inst-10.png) 
 ![Listagem de redes](/images/inst-10-2.png)
-13.	Executar o comando `docker-compose up -d` para iniciar os contêineres.
+12.	Executar o comando `docker-compose up -d` para iniciar os contêineres.
 ![Comando para iniciar os contêineres](/images/inst-11.png) 
-14.	O correto funcionamento dos contêineres pode ser verificado através do comando `docker ps`.
+13.	O correto funcionamento dos contêineres pode ser verificado através do comando `docker ps`.
 ![Comando para listagem de contêineres ativos](/images/inst-12.png) 
-15.	Efetive a importação dos certificados de desenvolvimento na pasta /atm-marvin-setup/certificates/https/.
+14.	Efetive a importação dos certificados de desenvolvimento na pasta /atm-marvin-setup/certificates/https/.
 > Senha: marvin-atm
-16.	Acesse alguma das APIs (ex.: API de Clientes em https://localhost:5677) e desative os avisos de segurança para aquele domínio.
+15.	Acesse alguma das APIs (ex.: API de Clientes em https://localhost:5677) e desative os avisos de segurança para aquele domínio.
 > Dependendo do navegador utilizado, é preciso acessar todas as portas (5675, 5677, 5679 e 5681)
-17.	Após a instalação de todos os projetos, o sistema estará disponível através do navegador no URI http://localhost.
+16.	Após a instalação de todos os projetos, o sistema estará disponível através do navegador no URI http://localhost.
 
 <br>
 

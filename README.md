@@ -1,6 +1,8 @@
 # Marvin 
 ## Sistema de Gerenciamento para Centros Automotivos
 
+![GITHUB](https://user-images.githubusercontent.com/82844620/167056867-3dee8596-133f-49b5-bcdb-c42c1d3e1e08.png)
+
 Este sistema foi desenvolvido como parte do trabalho de conclusão de curso do curso de graduação em Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.
 
 - Aluna: Giulia Guarise Gutierrez

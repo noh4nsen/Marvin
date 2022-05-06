@@ -51,7 +51,7 @@ Este sistema foi desenvolvido como parte do trabalho de conclusão de curso do c
 ![Comando para iniciar os contêineres](/images/inst-11.png) 
 12.	O correto funcionamento dos contêineres pode ser verificado através do comando “docker ps”.
 ![Comando para listagem de contêineres ativos](/images/inst-12.png) 
-13.	Efetive a importação dos certificados de desenvolvimento na pasta /certificates/https/.
+13.	Efetive a importação dos certificados de desenvolvimento na pasta /atm-marvin-setup/certificates/https/.
 
 14.	Acesse alguma das APIs (ex.: API de Clientes em https://localhost:5677) e desative os avisos de segurança para aquele domínio.
 

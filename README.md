@@ -33,11 +33,11 @@ Este sistema foi desenvolvido como parte do trabalho de conclusão de curso do c
 
 1.	Abrir o prompt de comando ou o PowerShell como administrador.
 
-2.	Instalar o WSL  (Windows Subsystem for Linux) através do comando “wsl -- install”.
+2.	Instalar o [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install)  (Windows Subsystem for Linux) através do comando “wsl -- install”.
 
 3.	Reiniciar a máquina para efetivar a instalação do WSL.
 
-4.	Acessar o site do Docker e fazer o download do Docker Desktop.
+4.	Acessar o site do Docker e fazer o download do [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 5.	Instalar o Docker Desktop.
 

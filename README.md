@@ -3,16 +3,14 @@
 
 ![GITHUB](https://user-images.githubusercontent.com/82844620/167056867-3dee8596-133f-49b5-bcdb-c42c1d3e1e08.png)
 
-Este sistema foi desenvolvido como parte do trabalho de conclusão de curso do curso de graduação em Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.
+Este sistema foi desenvolvido como parte do Trabalho de Conclusão de Curso do curso de graduação em Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.
 
-- Aluna: Giulia Guarise Gutierrez
-
-- Aluno: Raphael Pereira Rodrigues
+- Discentes: Giulia Guarise Gutierrez e Raphael Pereira Rodrigues
 
 - Orientador: Prof. Dr. João Eugenio Marynowski
 
 <details>
-  <summary>Diagrama do sistema e Repositórios</summary>
+  <summary>Diagrama do sistema e Repositórios Individuais</summary>
 
 ![Diagrama do sistema](/images/marvin.png)
 
@@ -59,9 +57,9 @@ Este sistema foi desenvolvido como parte do trabalho de conclusão de curso do c
 12.	O correto funcionamento dos contêineres pode ser verificado através do comando “docker ps”.
 ![Comando para listagem de contêineres ativos](/images/inst-12.png) 
 13.	Efetive a importação dos certificados de desenvolvimento na pasta /atm-marvin-setup/certificates/https/.
-
+> Senha: marvin-atm
 14.	Acesse alguma das APIs (ex.: API de Clientes em https://localhost:5677) e desative os avisos de segurança para aquele domínio.
-
+> Dependendo do navegador utilizado, é preciso acessar todas as portas (5675, 5677, 5679 e 5681)
 15.	Após a instalação de todos os projetos, o sistema estará disponível através do navegador no URI http://localhost.
 
 <br>

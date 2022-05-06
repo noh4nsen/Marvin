@@ -33,7 +33,7 @@ Este sistema foi desenvolvido como parte do Trabalho de Conclusão de Curso do c
 
 1.	Abrir o prompt de comando ou o PowerShell como administrador.
 
-2.	Instalar o [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install)  (Windows Subsystem for Linux) através do comando “wsl -- install”.
+2.	Instalar o [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install)  (Windows Subsystem for Linux) através do comando `wsl -- install`.
 
 3.	Reiniciar a máquina para efetivar a instalação do WSL.
 
@@ -45,16 +45,16 @@ Este sistema foi desenvolvido como parte do Trabalho de Conclusão de Curso do c
 
 7.	Navegar até a raiz da pasta setup do projeto atm-marvin-setup (ex.: cd /mnt/c/Users/{nome-do-usuario}/Desktop/[…]/atm-marvin-setup/setup).
 
-8.	Executar o comando “docker-compose pull” para baixar as imagens das aplicações no repositório local.
+8.	Executar o comando `docker-compose pull` para baixar as imagens das aplicações no repositório local.
 ![Comando para baixar as imagens.](/images/inst-8.png) 
-9.	Conferir se as imagens foram baixadas corretamente através do comando “docker images”, em caso de erro executar o comando “docker-compose pull” novamente. 
+9.	Conferir se as imagens foram baixadas corretamente através do comando `docker images`, em caso de erro executar o comando `docker-compose pull` novamente. 
 ![Listagem de imagens](/images/inst-9.png)
-10.	Executar o comando “docker network create postgres-net” para criar uma rede de comunicação interna do Docker na qual os microsserviços se comunicarão (A criação da rede pode ser conferida através do comando “docker network ls”).
+10.	Executar o comando `docker network create postgres-net` para criar uma rede de comunicação interna do Docker na qual os microsserviços se comunicarão (A criação da rede pode ser conferida através do comando `docker network ls`).
 ![Criação de rede interna](/images/inst-10.png) 
 ![Listagem de redes](/images/inst-10-2.png)
-11.	Executar o comando “docker-compose up -d” para iniciar os contêineres.
+11.	Executar o comando `docker-compose up -d` para iniciar os contêineres.
 ![Comando para iniciar os contêineres](/images/inst-11.png) 
-12.	O correto funcionamento dos contêineres pode ser verificado através do comando “docker ps”.
+12.	O correto funcionamento dos contêineres pode ser verificado através do comando `docker ps`.
 ![Comando para listagem de contêineres ativos](/images/inst-12.png) 
 13.	Efetive a importação dos certificados de desenvolvimento na pasta /atm-marvin-setup/certificates/https/.
 > Senha: marvin-atm

@@ -1,0 +1,22 @@
+version: '3.5'
+
+services:
+    atm-autenticador-api:
+        image: atm-autenticador-api
+        restart: always
+        build:
+            context: .
+            dockerfile: src/Atm.Autenticador.Api/Dockerfile
+        environment:
+            - ASPNETCORE_URLS=https://+443;http://+80
+            - ASPNETCORE_HTTPS_PORT=443
+            - ASPNETCORE_HTTP_PORT=80
+            - Kestrel__Certificates__Default__Path=${HTTPS_CERTIFICATE_PATH}
+            - Kestrel__Certificates__Default__Password=${HTTPS_CERTIFICATE_PASSWORD}
+        networks: 
+            - postgres-net
+networks:
+    postgres-net:
+        driver: bridge
+        external: true
+        name: postgres-net

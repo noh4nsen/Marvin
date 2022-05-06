@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+    atm-autenticador-api:
+        container_name: atm-${PROJECT_NAME}-latest
+        build:
+            args:
+                - BUILD_CONFIG=Debug
+                - HTTP_PORT=80
+                - HTTPS_PORT=443
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        ports:
+            - 5680:80
+            - 5681:443

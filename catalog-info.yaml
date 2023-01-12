@@ -3,8 +3,13 @@ kind: Component
 metadata:
   name: Marvin
   annotations:
-    github.com/project-slug: noh4nsen/Marvin
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: marvin
+  links:
+    - url: https://github.com/noh4nsen/teste-backstage/tree/master/
+      title: Repositorio
+      icon: dashboard
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
+  type: service
+  owner: user:guest
+  lifecycle: experimental

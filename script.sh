@@ -1,1 +1,1 @@
-docker ps
+ls -la

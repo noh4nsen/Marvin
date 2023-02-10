@@ -2,4 +2,4 @@
 
 set -eu
 
-echo $1
+docker ps

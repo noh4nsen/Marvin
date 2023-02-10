@@ -1,1 +1,1 @@
-ls -la
+export ENV_TESTE=ABC
